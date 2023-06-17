@@ -1,5 +1,5 @@
 .task1 {
-  transition: transform 1s ease-in;
+  transition: transform 1s ease;
 }
 
 .task1:hover {
@@ -15,7 +15,7 @@
 }
 
 .task3 {
-  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in;
 }
 
 .task3:hover {
@@ -39,7 +39,7 @@
 }
 
 .task6 {
-  transition: transform 1s ease-in;
+  transition: transform 1s ease-in-out;
 }
 
 .task6:hover {
@@ -117,24 +117,7 @@
 }
 
 .task15:hover {
-  transform: matrix3d(
-    0.4,
-    0,
-    0,
-    0,
-    0.4,
-    0,
-    0,
-    0,
-    -0.4,
-    -0,
-    0,
-    0,
-    20,
-    -0,
-    0,
-    1.1
-  );
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
 }
 
 .task16 {
